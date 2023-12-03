@@ -51,3 +51,4 @@ for multiple commits, to rollback to a specific commit
 this would reflect the change in the vs code editor as well
 
 
+# Author : Rupak Bhandari
