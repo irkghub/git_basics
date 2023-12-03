@@ -1,5 +1,5 @@
 #!/bin/bash
-#!/bin/bash
+
 
 read -p "Enter the name of the directory: " dir_name
 read -p "Enter the remote Git repository URL: " repo_name
