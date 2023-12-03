@@ -1,6 +1,6 @@
 First of all we need to configure the git account from which we will make the changes..
 
-`git config –global user.name “account_user_name”`
+1)  git config –global user.name “account_user_name”
 2)	git config –global.email “your_account_mailing_address”
 3)	git config –list (to list all the configuration stuffs)
 
