@@ -1,0 +1,53 @@
+First of all we need to configure the git account from which we will make the changes..
+
+1)	git config –global user.name “account_user_name”
+2)	git config –global.email “your_account_mailing_address”
+3)	git config –list (to list all the configuration stuffs)
+
+P.S. double hyphen is used here not a single one.
+
+When we have to clone a github repo, we 
+1)	git clone git-url
+
+to push the brand new project to github
+1)	git init 
+2)	git status
+3)	git add .
+4)	git commit -m “Message”
+5)	git add origin <git-repo-url-with-same-name>
+6)	git branch ( to check the branch)
+7)	git branch -M <branch_name>
+8)	git push -u origin main
+
+branch commands
+1)	git branch
+2)	git checkout -b <branch_name>
+3)	git checkout <branch-name> (To alter between git branches)
+4)	git branch -d <branch-name>( To delete the branch )
+5)	git push origin <branch_name>
+
+merge command
+1)	git diff main (check the difference between another branch we are currently in with the main branch)
+2)	git merge <branch_name>
+
+to reflect changes in remote and local repo 
+1)	git pull origin main
+
+resolving merge conflicts
+1)	through pull requests from the console
+2)	through git merge
+
+undoing changes In git
+for staged changes
+1)	git reset <file-name>
+
+to check history git log
+for committed changes (one commit)
+1)	git reset HEAD~1 (by default the last commit that we make is head. All that we are saying to git here is revert back one step ahead of the recent commitment)
+
+for multiple commits, to rollback to a specific commit
+1)	git reset <hash_value_of_commit>
+2)	git reset –hard  <hash_value_of_commit>
+this would reflect the change in the vs code editor as well
+
+
